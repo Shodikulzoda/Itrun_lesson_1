@@ -37,7 +37,6 @@ bld/
 [Ll]og/
 
 # Visual Studio 2015/2017 cache/options directory
-.vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
@@ -283,6 +282,47 @@ node_modules/
 # Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
 *.vbw
 
+# Rider restore файлы
+*.restore.info
+
+# NuGet кеш и временные файлы
+*.nuget.cache
+*.nuget.dgspec.json
+
+# Автоматически сгенерированные файлы
+*.cache
+*.assets.json
+# Rider restore файлы
+
+
+# Конфигурационные файлы IDE
+.idea/
+*.sln.iml
+
+# Файлы миниатюр и временные файлы изображений
+*.thumbs.db
+*.ds_store
+
+# Файлы логов и отладочной информации
+*.trace
+
+# Файлы временного кэша
+
+*.swp
+
+# Временные файлы изображений
+*.png.tmp
+*.jpg.tmp
+*.gif.tmp
+
+# Файлы для сборки, не относящиеся к коду
+
+# Файлы настроек локальных инструментов
+*.localhistory/
+*.vscode/
+*.vs/
+
+
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
 **/*.DesktopClient/GeneratedArtifacts
@@ -299,8 +339,7 @@ paket-files/
 .fake/
 
 # JetBrains Rider
-.idea/
-*.sln.iml
+
 
 # CodeRush personal settings
 .cr/personal
