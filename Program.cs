@@ -1,4 +1,6 @@
-﻿namespace First_Lesson_1;
+﻿using System;
+
+namespace First_Lesson_1;
 
 public class Program
 {
